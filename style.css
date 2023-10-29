@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+
+    box-sizing: border-box;
+}
+body
+{
+   
+background-color: hsl(240, 49%, 69%);
+}
+
+.container
+{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(260deg,#153677,#4e085f);
+    color: white;
+   text-align: center;
+    padding: 10px;
+    
+}
+.tolist
+{
+    width: 100%;
+    max-width: 540px;
+    background: #fff;
+    
+   box-shadow: 5px 5px 5px 5px;
+   color: rgb(34, 33, 33);
+   
+  
+    border-radius: 10px;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px ;
+    
+}
+.tolist h1{
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+.container h5{
+    top:10px;
+    color: black;
+    opacity: 0.8;
+    font-size: 1.3rem;
+    font-weight: lighter;
+}
+.row
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #edeef0;
+    border-radius: 20px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+.row input{
+    background: transparent;
+    flex:1;
+   font-size: large;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    
+    
+}
+
+
+.row input:focus{
+    
+   
+   outline: none;
+}
+.row button{
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    border: none;
+    background-color:#153677;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+   
+   
+
+}
+ul li{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    font-size: large;
+    box-shadow: 5px 5px 5px 5px;
+    color: rgb(126, 125, 125);
+    width: 100%;
+    padding: 5px;
+    margin-left: 0;
+    border-radius: 40px;
+    background: rgb(155, 154, 154);
+    
+}
+ul li input{
+    margin-right: 10px;
+   
+
+}
+
+
+.edit{
+   margin-left: 150px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    border: none;
+    background: none;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.delete{
+   margin-left: 20px;
+     padding: 10px 20px 10px 20px;
+     border-radius: 20px;
+     border: none;
+     background: none;
+     color: white;
+     font-size: 1rem;
+     cursor: pointer;
+ }
+.delete:hover
+{
+    background: #153677;
+    
+    
+}
+.edit:hover{
+    background: #153677;
+}
